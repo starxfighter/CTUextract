@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="9.2" multi-file="no">
+  <meta>
+    <name>Project</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type="UmlClass" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type="UmlClass" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type="AbstractElementGroup" />
+        <value>3</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.AttributeField</type>
+        <value>7</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>14</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management>
+    <persons>
+      <person id="P2c7c1b2feede44e480cd83975d1160d9">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <tasks />
+    <requirements />
+    <issues />
+    <to-dos />
+  </management>
+  <glossary />
+  <types>
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types />
+  </types>
+  <filters />
+  <items />
+  <models>
+    <model id="pa632373af5554335a7bb8dcb2c0f6a4d_378253818" name="Model 1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>06/02/2016 12:37:49</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p02aa4196405e4bd981f460c2fbc89743_894115916" name="ClassDiagram1" order-index="1" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>06/02/2016 12:37:49</creation-date>
+          <change-date>06/02/2016 12:37:56</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di166341824193028819" cid="C001" type="class" name="Customer" style-class="" visibility="package" change-tracking-state="added" creator="P2c7c1b2feede44e480cd83975d1160d9" creation-date="06/02/2016 12:37:56">
+            <style class="default" />
+            <attributes>
+              <attribute id="a1acb16735b584fe5b60c652ac721061e412" cid="AT001" name="custFirstName" type="String" type-id="Uml.String" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="ac09ebb1b05354c92971d32953ee4f801723" cid="AT002" name="custLastName" type="String" type-id="Uml.String" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a141d024f302e4a19a5b6ad216e541eb3102" cid="AT003" name="custAddress" type="String" type-id="Uml.String" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a5e6107e3b98d4d58af82054aa103da8b772" cid="AT004" name="custCity" type="String" type-id="Uml.String" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a7109513f63dd4123834ef5476d34ba25122" cid="AT005" name="custState" type="String" type-id="Uml.String" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a5ad452c581974455866d90aa209f39d61" cid="AT006" name="custZipCode" type="Integer" type-id="Uml.Integer" visibility="private">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o3365079557a843889e423e714848412e970" cid="OP001" name="setCustFirstName" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pba7e0280e54348bfacb0c9c0c9562c2d" name="name" type="String" type-id="Uml.String" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="obb5279c8f0f545a6899be07a855f0860996" cid="OP002" name="setCustLastName" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pb95d11c1e4e74698ba4ed8e34b9f58fa" name="lname" type="String" type-id="Uml.String" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o5225943759944e2f8850efa9c4b51f26197" cid="OP003" name="setCustAddr" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pcf1c9c0f94c44a92840cecd6bafcf1ed" name="Addr" type="String" type-id="Uml.String" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="of0c4680e95da487fa5eaf845fa15287f940" cid="OP004" name="setCustCity" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pe083b2a7f259432ea0c72986f134abf0" name="city" type="String" type-id="Uml.String" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o0d4e0248c0364a8f87a3bbab40b96caf795" cid="OP005" name="setCustState" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p847d2cdfd099440780796dc37c1c8b2b" name="state" type="String" type-id="Uml.String" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o3232857f564248d9ae1b71dac7f23730259" cid="OP006" name="setCustZip" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p69d0b2f0f7a740b9a0fb83e68b22a018" name="zip" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o422e88cc5804415aa936f7b53e89abae962" cid="OP007" name="getCustFirstName" type="String" type-id="Uml.String" visibility="public" static="true">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o692cd0fdebc34fb198d8d409e63ad5c2347" cid="OP008" name="getCustLastName" type="String" type-id="Uml.String" visibility="public" static="true">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o64483bca6e1c49acb926a52f015f1698458" cid="OP009" name="getCustAddr" type="String" type-id="Uml.String" visibility="public" static="true">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="ofe54f16b8c794c42819de75a73570151368" cid="OP010" name="getCustCity" type="String" type-id="Uml.String" visibility="public" static="true">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o453a276f4fc3449a924ff7bba38f7606983" cid="OP011" name="getCustState" type="String" type-id="Uml.String" visibility="public" static="true">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o8374f496b3484a26b6bd029839db720b868" cid="OP012" name="getCustZip" type="Integer" type-id="Uml.Integer" visibility="public" static="true">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oa90fb89feabd4c638b82ff10ee14e874330" cid="OP013" name="Customer" type="Object" type-id="Uml.Object" visibility="public">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di166341824193028819" iid="15f162102a094ad7848bbd544b15e120" creation-date="06/02/2016 12:37:56" order-index="0" type="entity">
+            <layout ax="415" ay="134" awidth="234" aheight="372" x="415" y="134" width="234" height="372" />
+            <class />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+  <documents />
+  <document-templates />
+</sim-project>

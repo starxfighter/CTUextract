@@ -1,0 +1,20 @@
+3
+MC 10
+What item is red?
+3
+Peach
+Apple
+Orange
+B
+TF 4
+Is red a color?
+True
+MC 15
+What is NOT an animal?
+5
+Cat
+Dog
+Ant
+Apple
+Deer
+D

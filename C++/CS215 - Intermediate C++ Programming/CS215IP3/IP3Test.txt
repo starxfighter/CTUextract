@@ -1,0 +1,14 @@
+3
+TF 5
+Is red a color?
+True
+MC 10
+What is red?
+3
+Orange
+Peach
+Apple
+C
+TF 10
+Is today Monday?
+False

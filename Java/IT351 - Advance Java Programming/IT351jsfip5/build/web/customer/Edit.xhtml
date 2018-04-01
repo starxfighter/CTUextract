@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <ui:composition template="/template.xhtml">
+        <ui:define name="title">
+            <h:outputText value="#{bundle.EditCustomerTitle}"></h:outputText>
+        </ui:define>
+        <ui:define name="body">
+            <h:panelGroup id="messagePanel" layout="block">
+                <h:messages errorStyle="color: red" infoStyle="color: green" layout="table"/>
+            </h:panelGroup>
+            <h:form>
+                <h:panelGrid columns="2">
+                    <h:outputLabel value="#{bundle.EditCustomerLabel_CID}" for="CID" />
+                    <h:inputText id="CID" value="#{customerController.selected.CID}" title="#{bundle.EditCustomerTitle_CID}" required="true" requiredMessage="#{bundle.EditCustomerRequiredMessage_CID}"/>
+                    <h:outputLabel value="#{bundle.EditCustomerLabel_CFirstName}" for="CFirstName" />
+                    <h:inputTextarea rows="1" cols="30" id="CFirstName" value="#{customerController.selected.CFirstName}" title="#{bundle.EditCustomerTitle_CFirstName}" />
+                    <h:outputLabel value="#{bundle.EditCustomerLabel_CLastName}" for="CLastName" />
+                    <h:inputTextarea rows="1" cols="30" id="CLastName" value="#{customerController.selected.CLastName}" title="#{bundle.EditCustomerTitle_CLastName}" />
+                    <h:outputLabel value="#{bundle.EditCustomerLabel_CAddress}" for="CAddress" />
+                    <h:inputTextarea rows="2" cols="30" id="CAddress" value="#{customerController.selected.CAddress}" title="#{bundle.EditCustomerTitle_CAddress}" />
+                    <h:outputLabel value="#{bundle.EditCustomerLabel_CCity}" for="CCity" />
+                    <h:inputTextarea rows="1" cols="10" id="CCity" value="#{customerController.selected.CCity}" title="#{bundle.EditCustomerTitle_CCity}" />
+                    <h:outputLabel value="#{bundle.EditCustomerLabel_CState}" for="CState" />
+                    <h:inputTextarea rows="1" cols="15" id="CState" value="#{customerController.selected.CState}" title="#{bundle.EditCustomerTitle_CState}" />
+                    <h:outputLabel value="#{bundle.EditCustomerLabel_CZipCode}" for="CZipCode" />
+                    <h:inputText id="CZipCode" value="#{customerController.selected.CZipCode}" title="#{bundle.EditCustomerTitle_CZipCode}" />
+                    <h:outputLabel value="#{bundle.EditCustomerLabel_CPhone}" for="CPhone" />
+                    <h:inputTextarea rows="1" cols="15" id="CPhone" value="#{customerController.selected.CPhone}" title="#{bundle.EditCustomerTitle_CPhone}" />
+                </h:panelGrid>
+                <h:commandLink action="#{customerController.update}" value="#{bundle.EditCustomerSaveLink}"/>
+                <br />
+                <br />
+                <h:link outcome="View" value="#{bundle.EditCustomerViewLink}"/>
+                <br />
+                <h:commandLink action="#{customerController.prepareList}" value="#{bundle.EditCustomerShowAllLink}" immediate="true"/>
+                <br />
+                <br />
+                <h:link outcome="/index" value="#{bundle.EditCustomerIndexLink}" />
+            </h:form>
+        </ui:define>
+    </ui:composition>
+
+</html>

@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1468890663 source:f:\ctu school stuff\cs215 - intermediate c++ programming\cs215ip2\cs215ip2.cpp
+	"Question.h"
+	"QuestionIF.h"
+	"QuestionMC.h"
+	<fstream>
+	<iostream>
+	<cstdlib>
+	<iomanip>
+	<cstring>
+	<string>
+
+1468890667 source:f:\ctu school stuff\cs215 - intermediate c++ programming\cs215ip2\question.cpp
+	"Question.h"
+	<iostream>
+	<cstdlib>
+	<string>
+
+1468882447 f:\ctu school stuff\cs215 - intermediate c++ programming\cs215ip2\question.h
+	<iostream>
+	<cstdlib>
+	<string>
+
+1468890667 source:f:\ctu school stuff\cs215 - intermediate c++ programming\cs215ip2\questionif.cpp
+	"QuestionIF.h"
+	<iostream>
+	<cstdlib>
+	<string>
+
+1468882308 f:\ctu school stuff\cs215 - intermediate c++ programming\cs215ip2\questionif.h
+	<iostream>
+	<cstdlib>
+	<string>
+	<Question.h>
+
+1468890667 source:f:\ctu school stuff\cs215 - intermediate c++ programming\cs215ip2\questionmc.cpp
+	"QuestionMC.h"
+	<iostream>
+	<cstdlib>
+	<string>
+
+1468882927 f:\ctu school stuff\cs215 - intermediate c++ programming\cs215ip2\questionmc.h
+	<iostream>
+	<cstdlib>
+	<string>
+	<Question.h>
+

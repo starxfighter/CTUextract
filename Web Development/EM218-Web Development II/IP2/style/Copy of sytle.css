@@ -1,0 +1,79 @@
+@charset "utf-8";
+#wrapper #maincontent .centered {
+	text-align: center;
+
+}
+#wrapper #top h1 {
+	font-family: Batavia, "Times New Roman", Cambria;
+	font-size: 36px;
+	color: #FF0;
+	background-color: #009;
+	text-align: center;
+}
+#wrapper #maincontent {
+	float: left;
+	width: 58%;
+	margin-left: 2%;
+}
+#wrapper #sidebar {
+	float: left;
+	width: 34%;
+	margin-left: 4%;
+}
+#wrapper #footer {
+	clear: left;
+}
+#wrapper #footer {
+	background-color: #00F;
+	text-align: center;
+	font-family: Batavia, "Times New Roman", Cambria;
+}
+copyright {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: normal;
+	color: #FFF;
+	text-align: center;
+}
+#wrapper #footer p {
+	color: #FFF;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+#wrapper #top #mainnav ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#wrapper #top #mainnav ul li a {
+	text-align: center;
+	display: block;
+	float: left;
+	width: 15%;
+	text-transform: uppercase;
+	color: #FF0;
+	background-color: #00F;
+	text-decoration: none;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+#wrapper #top #mainnav a:hover {
+	background-color: #006;
+}
+#wrapper #top #mainnav a:focus {
+	background-color: #006;
+}
+#wrapper #top #mainnav a:active {
+	background-color: #006;
+}
+#wrapper #top #mainnav a.thispage {
+	background-color: #006;
+}p {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+#wrapper #footer h4 {
+	font-family: Batavia, "Times New Roman", Cambria;
+	color: #FF0;
+	padding: 0px;
+	margin: 0px;
+}

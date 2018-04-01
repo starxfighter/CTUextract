@@ -1,0 +1,95 @@
+# depslib dependency file v1.0
+1470259390 source:f:\ctu school stuff\cs215 - intermediate c++ programming\cs215ip5\cs215ip5.cpp
+	"Exam.h"
+	<cstdlib>
+	<cstring>
+	<string>
+
+1468890667 source:f:\ctu school stuff\cs215 - intermediate c++ programming\cs215ip5\question.cpp
+	"Question.h"
+	<iostream>
+	<cstdlib>
+	<string>
+	"Question.h"
+	<iostream>
+	<cstdlib>
+	<string>
+
+1468882447 f:\ctu school stuff\cs215 - intermediate c++ programming\cs215ip5\question.h
+	<iostream>
+	<cstdlib>
+	<string>
+	<iostream>
+	<cstdlib>
+	<string>
+
+1468890667 source:f:\ctu school stuff\cs215 - intermediate c++ programming\cs215ip5\questionif.cpp
+	"QuestionIF.h"
+	<iostream>
+	<cstdlib>
+	<string>
+	"QuestionIF.h"
+	<iostream>
+	<cstdlib>
+	<string>
+
+1468882308 f:\ctu school stuff\cs215 - intermediate c++ programming\cs215ip5\questionif.h
+	<iostream>
+	<cstdlib>
+	<string>
+	<Question.h>
+	<iostream>
+	<cstdlib>
+	<string>
+	<Question.h>
+
+1470252258 source:f:\ctu school stuff\cs215 - intermediate c++ programming\cs215ip5\questionmc.cpp
+	"QuestionMC.h"
+	<iostream>
+	<cstdlib>
+	<string>
+
+1470252021 f:\ctu school stuff\cs215 - intermediate c++ programming\cs215ip5\questionmc.h
+	<iostream>
+	<cstdlib>
+	<string>
+	<Question.h>
+
+1470258630 f:\ctu school stuff\cs215 - intermediate c++ programming\cs215ip5\exam.h
+	<Helper.h>
+	<QuestionIF.h>
+	<QuestionMC.h>
+	<fstream>
+	<iostream>
+	<algorithm>
+	<cstdlib>
+	<iomanip>
+	<cstring>
+	<string>
+
+1469820688 f:\ctu school stuff\cs215 - intermediate c++ programming\cs215ip5\helper.h
+	<iostream>
+	<cstdlib>
+	<string>
+
+1470261509 source:f:\ctu school stuff\cs215 - intermediate c++ programming\cs215ip5\exam.cpp
+	"Exam.h"
+	"Helper.h"
+	<fstream>
+	<iostream>
+	<algorithm>
+	<cstdlib>
+	<iomanip>
+	<cstring>
+	<string>
+
+1469821254 source:f:\ctu school stuff\cs215 - intermediate c++ programming\cs215ip5\helper.cpp
+	"Helper.h"
+	<fstream>
+	<iostream>
+	<algorithm>
+	<cstdlib>
+	<iomanip>
+	<cstring>
+	<string>
+

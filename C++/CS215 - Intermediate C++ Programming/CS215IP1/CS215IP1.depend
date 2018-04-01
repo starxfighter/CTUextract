@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1468263746 source:f:\ctu school stuff\cs215 - intermediate c++ programming\cs215ip1\cs215ip1.cpp
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	<cstring>
+	<string>
+

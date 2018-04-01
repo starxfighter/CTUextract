@@ -1,0 +1,20 @@
+4
+TF 10
+Test tf
+True
+MC 10
+test 2
+5
+a
+b
+c
+d
+e
+A
+MC 10
+test 3
+3
+A
+TF 10
+test 4
+False

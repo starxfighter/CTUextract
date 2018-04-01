@@ -1,0 +1,100 @@
+/*Set background images*/
+#header {
+background-image: url("../images/HunAmerBack.jpg");
+background-repeat: repeat;
+font-weight: bold;
+text-align: justify;
+height: 100px;
+}
+#hcontent{
+background-image: url("../images/hunemb.jpg");
+background-repeat: repeat;
+font-weight: bold;
+text-align: justify;
+height: 300px;
+}
+#acontent{
+background-image: url("../images/AmerFlagOld.jpg");
+background-repeat: repeat;
+font-weight: bold;
+text-align: justify;
+height: 300px;
+}
+/* Set body and main division styles*/
+p.blue {
+color: blue;
+visibility: hidden;
+}
+body {
+font-family: arial, verdana, sans-serif;
+font-size: 16px;
+}
+footer {
+background-color: #4DB870;
+font-weight: bold;
+}
+#footer{
+padding:30px;
+}
+#nav {
+background-color: #FF4D4D;
+font-weight: bold;
+font-size: 20px;
+}
+p.statement {
+text-align: center;
+color: black;
+background-color: white;
+font-weight: bold;
+font-style: oblique;
+}
+h2,h4 {
+text-align: center;
+}
+#content {
+background-color: #E6E6B8;
+ }
+p.aboutus {
+color: black;
+font-weight: bold;
+font-size: 20px;
+padding: 10px;
+}
+/*Set style for hyperlinks*/
+a:link {
+color:#008F00;
+text-decoration: none;
+}
+a:visited {
+color: black;
+}
+a:hover {
+color: #0000FF;
+text-decoration: underline;
+}
+a:active {
+color: darkcyan;
+}
+/* Style settings for included lists*/
+ul#menu {
+padding: 0
+}
+ul#menu li a {
+padding: 10px 20px;
+text-decoration: none;
+border-radius: 4px 4px 0 0;
+list-style-type: none;
+}
+ul#menu li {
+display: inline;
+}
+ul#recipes li a {
+color: black;
+background-color: white;
+font-size: 20px;
+font-weight: bold;
+}
+ul#recipes li {
+list-style-type: circle;
+margin: 10px 0px 0px 0px;
+}

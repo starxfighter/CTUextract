@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="9.2" multi-file="no">
+  <meta>
+    <name>CS215</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type="UmlClass" />
+        <value>3</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type="UmlClass" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type="UmlGeneralization" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type="AbstractElementGroup" />
+        <value>9</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.AttributeField</type>
+        <value>10</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>26</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management>
+    <persons>
+      <person id="P58e21b17512b4ca38e5061b5930e9185">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <tasks />
+    <requirements />
+    <issues />
+    <to-dos />
+  </management>
+  <glossary />
+  <types>
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types />
+  </types>
+  <filters />
+  <items />
+  <models>
+    <model id="p3053c1e1a8af411ba4774c48b25534b3_325850361" name="Model 1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>07/25/2016 11:46:25</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="pac2d832414dd440a8e5601f3a013e106_405880322" name="QuestionClass" order-index="1" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="0,98">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>07/25/2016 11:46:25</creation-date>
+          <change-date>07/25/2016 11:47:11</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di234993511327715091" cid="C001" type="class" name="Question" style-class="" visibility="package" change-tracking-state="added" creator="P58e21b17512b4ca38e5061b5930e9185" creation-date="07/25/2016 11:46:42">
+            <style class="default" />
+            <attributes>
+              <attribute id="ada4d996465ed476cba89364f500ac515176" cid="AT001" name="question" type="String" type-id="Uml.String" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="a863e6a14db0a45ef9928517f112e3457517" cid="AT002" name="value" type="Integer" type-id="Uml.Integer" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="aab5a42eb3e0d46f089f4ea525d74c355401" cid="AT003" name="options" type="String" type-id="Uml.String" visibility="private" multiplicity="1..*">
+                <style class="default" />
+              </attribute>
+              <attribute id="a22cd2ab7ddf8436e81722a283023c6b3309" cid="AT004" name="answer" type="String" type-id="Uml.String" visibility="private">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o1dd2a8e5ed624c9fbd65ab835cf537c5402" cid="OP001" name="Question" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pae077673a232423aa619df023ea29c91" name="questIn" type="String" type-id="Uml.String" />
+                  <parameter id="p1925f94977964fa2bf37a54d3f8648c3" name="pvalue" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oddf942d0c7204aaa8d7bc93e81742fcf51" cid="OP002" name="Question" type="" type-id="" visibility="public">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o3ae77ecb094f43bfb56c76d547d61515870" cid="OP003" name="~Question" type="" type-id="" visibility="public">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o8128ece73079439e82114690d8fc9bce548" cid="OP004" name="setQuestion" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pa6e3c3435db8499a83aaddd6a9a2e596" name="quest" type="String" type-id="Uml.String" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o90bf72bb18d443b794b1d4fa43d5b0c4543" cid="OP005" name="setValue" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p146ec68b97a145a5851160c68ad0aa39" name="pvalue" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o406512ce17974d5e9f4c6a00c9208a57888" cid="OP006" name="getQuestion" type="String" type-id="Uml.String" visibility="public" static="true">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oc333b81d40ec4312bfe85feb38b032f0625" cid="OP007" name="getValue" type="Integer" type-id="Uml.Integer" visibility="public" static="true">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o1f93da5c14174485a05881e8f57a8201571" cid="OP008" name="printOptions" type="String" type-id="Uml.String" visibility="public" abstract="true" virtual="true">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pdc866a7627854a3da2297d0278302005" name="ndx" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="ofee421c6895c45a1b85b316ea6ce0580637" cid="OP010" name="getAnswer" type="String" type-id="Uml.String" visibility="public" abstract="true" virtual="true">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="di743556458589689466" cid="C002" type="class" name="QuestionIF" style-class="" visibility="package" creator="P58e21b17512b4ca38e5061b5930e9185" creation-date="07/25/2016 11:46:59">
+            <style class="default" />
+            <attributes>
+              <attribute id="aa60b072ce864430b8cc17605f77775b2216" cid="AT005" name="answer" type="String" type-id="Uml.String" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="ae6344f42626a4e6da19759062dd5fbb8399" cid="AT006" name="options" type="String" type-id="Uml.String" visibility="private" multiplicity="1..*">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="oe8d99c82f27a4bdeaf9e075f3f6b9927536" cid="OP011" name="QuestionIF" type="" type-id="" visibility="public">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o04c3073b9b5b492b873e977579f2523893" cid="OP012" name="QuestionIF" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pc6a030bd50f840fc95f49094f7c75a38" name="questIn" type="String" type-id="Uml.String" />
+                  <parameter id="p8bdae65fad5f490b97fc2aa51b012c1b" name="pvalue" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p3a55283694a7413b8bbb46cf11b7ff52" name="ans" type="String" type-id="Uml.String" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o3fad47fd4d2f49df80be2352fa10cea7181" cid="OP013" name="~QuestionIF" type="" type-id="" visibility="public">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oa0ce35f9f4a14bff88da96bd6f03d4b9642" cid="OP014" name="setAnswer" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p50f913d8b7064ac18e0f8de51ccff784" name="ans" type="String" type-id="Uml.String" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o6a50dfca4ea7400a8540c83e192f6273892" cid="OP015" name="getAnswer" type="String" type-id="Uml.String" visibility="public" static="true">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oecb2fd0736a4478c923246da0cebef46806" cid="OP016" name="setOptions" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pc8a07506c18c4eb0ad360114466e18b7" name="ndx" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p9250711631624469b84e3289a114053a" name="value" type="String" type-id="Uml.String" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="of49372eb48d846cd8cd9e33f058b2735661" cid="OP017" name="printOptions" type="String" type-id="Uml.String" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p802cdf3c6c774475bf12ab955e92e763" name="ndx" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="di489405507940145652" cid="GNR001" type="generalization" name="" style-class="" visibility="package" creator="P58e21b17512b4ca38e5061b5930e9185" creation-date="07/25/2016 11:46:59" from="di743556458589689466" to="di234993511327715091">
+            <style class="default" />
+          </item>
+          <item id="di937103057642026667" cid="C003" type="class" name="QuestionMC" style-class="" visibility="package" creator="P58e21b17512b4ca38e5061b5930e9185" creation-date="07/25/2016 11:47:11">
+            <style class="default" />
+            <attributes>
+              <attribute id="a104d9ceecd1049ec9fd54206101d10c8870" cid="AT007" name="answer" type="String" type-id="Uml.String" visibility="private">
+                <style class="default" />
+              </attribute>
+              <attribute id="afdcfb18f666a426ea6b8fc8fcf1fe6d0787" cid="AT008" name="options" type="String" type-id="Uml.String" visibility="private" multiplicity="1..*">
+                <style class="default" />
+              </attribute>
+              <attribute id="a686edb8db391494ca327dfd57b5cf952124" cid="AT009" name="anOption" type="String" type-id="Uml.String" visibility="private">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="off105e612d724c54916c23a753c769bf79" cid="OP018" name="QuestionMC" type="" type-id="" visibility="public">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oa88785fa9ce043368ce5ac83c87aca9130" cid="OP019" name="~QuestionMC" type="" type-id="" visibility="public">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oa37e11d32aaf49ffa0f878f1dd0754e1955" cid="OP020" name="QuestionMC" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pf0a9ffbafc5648c191a0c4dab959abdb" name="questIn" type="String" type-id="Uml.String" />
+                  <parameter id="p05ad9fe76cba4ec9823fa65b1aef9859" name="pvalue" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="pe6c2ed38e1c84c4e8fdf88e0f8fa736c" name="ans" type="String" type-id="Uml.String" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o2f6afd950e1a4e1cb8f71fcabe0bef01594" cid="OP021" name="setAnswer" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p20420591c6b143d0b921fe780dbd90f1" name="ans" type="String" type-id="Uml.String" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="odece6d0b31e045878df187020273a5bd704" cid="OP022" name="setOptions" type="" type-id="" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pa3be5b1581c34fc39cf31b32952de52a" name="ndx" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="pfd4c29ad413442ae9ecce801051fddfa" name="value" type="String" type-id="Uml.String" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="od00c677ad9484d7b824d35334058f36173" cid="OP023" name="getAnswer" type="String" type-id="Uml.String" visibility="public" static="true">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o996c70eeba8b458a9d8b34f0052df779333" cid="OP024" name="printOptions" type="String" type-id="Uml.String" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p3db6af81447c455bb0d152596951f5a2" name="ndx" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o0916e49c28174b408990507b30501afb552" cid="OP025" name="addOption" type="String" type-id="Uml.String" visibility="public">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="di429647691739551313" cid="GNR002" type="generalization" name="" style-class="" visibility="package" creator="P58e21b17512b4ca38e5061b5930e9185" creation-date="07/25/2016 11:47:11" from="di937103057642026667" to="di234993511327715091">
+            <style class="default" />
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di234993511327715091" iid="d7b08d44db0d4aeab317ccb6a0e1f159" creation-date="07/25/2016 11:46:42" order-index="0" type="entity">
+            <layout ax="437" ay="101" awidth="300" aheight="287" x="437" y="101" width="300" height="287" />
+            <class />
+          </item>
+          <item id="di743556458589689466" iid="047e6c1b11fd4a6b8b78fe5cbee6185b" creation-date="07/25/2016 11:46:59" order-index="1" type="entity">
+            <layout ax="705" ay="456" awidth="350" aheight="216" x="705" y="456" width="350" height="216" />
+            <class />
+          </item>
+          <item id="di489405507940145652" iid="191afef89a784f8383c0e9873365b4a8" creation-date="07/25/2016 11:46:59" order-index="2" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="781" y1="456" x2="719" y2="388" start-border-pos="0.0543660627092634" end-border-pos="0.515125020345052" name-position="0,0">
+              <points>
+                <point x="781" y="456" />
+                <point x="719" y="388" />
+              </points>
+            </layout>
+            <relation from="di743556458589689466" from-iid="047e6c1b11fd4a6b8b78fe5cbee6185b" to="di234993511327715091" to-iid="d7b08d44db0d4aeab317ccb6a0e1f159" />
+          </item>
+          <item id="di937103057642026667" iid="2eb258fe5e4746aaa8fd8b779342d0e8" creation-date="07/25/2016 11:47:11" order-index="3" type="entity">
+            <layout ax="173" ay="436" awidth="357" aheight="250" x="173" y="436" width="357" height="250" />
+            <class />
+          </item>
+          <item id="di429647691739551313" iid="845da89cd22449bab3a3fcc57d92535f" creation-date="07/25/2016 11:47:11" order-index="4" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="445" y1="436" x2="480" y2="388" start-border-pos="0.190242030039555" end-border-pos="0.713958994547526" name-position="0,0">
+              <points>
+                <point x="445" y="436" />
+                <point x="480" y="388" />
+              </points>
+            </layout>
+            <relation from="di937103057642026667" from-iid="2eb258fe5e4746aaa8fd8b779342d0e8" to="di234993511327715091" to-iid="d7b08d44db0d4aeab317ccb6a0e1f159" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+  <documents />
+  <document-templates />
+</sim-project>

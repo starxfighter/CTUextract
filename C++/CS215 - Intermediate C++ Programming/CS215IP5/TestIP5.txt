@@ -1,0 +1,26 @@
+5
+TF 10
+Red is a color?
+True
+TF 5
+The month is July?
+False
+MC 15
+What is red?
+5
+Apple
+Orange
+Peach
+Bannana
+Watermelon
+A
+MC 10
+Who taught CS215?
+3
+Professor Thorpe
+Professor Lowe
+Professor Sanford
+C
+TF 2
+The class was fun?
+True

@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Chicago SunTimes</title>
+<link href="style/style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+</style>
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="wrapper">
+  <header id="top">
+    <h1>Chicago SunTimes</h1>
+    <nav id="mainnav">
+      <ul>
+        <li><a href="index.html" class="thispage">Local News</a></li>
+        <li><a href="NationalNews.html">National  News</a></li>
+        <li><a href="#">Sports</a></li>
+        <li><a href="#">Entertainment</a></li>
+        <li><a href="#">Health</a></li>
+        <li><a href="#">Business</a></li>
+      </ul>
+    </nav>
+  </header>
+  <hr>
+  <div id="line">
+    <p><img src="images/Chicago Banner.jpg" width="900" height="169" alt="Chicago Skyline" /></p>
+  </div>
+  <hr>
+  <article id="maincontent">
+    <h2>Man dies  after suffering medical emergency on Eisenhower</h2><br>
+    <p>A 58-year-old  south suburban man died Tuesday after he suffered a medical emergency while  driving on the Eisenhower Expressway in the western suburbs.<br>
+      Randall  Williams of Dolton was driving eastbound on I-290 near Mannheim Road about 3:30  p.m. when he suffered a medical emergency and pulled over, according to  Illinois State Police and the Cook County medical examiner&rsquo;s office.<br>
+      He was  unresponsive in the car when an ambulance arrived at the scene, and was taken  to Loyola University Medical Center, where he was pronounced dead at 4:02 p.m.,  authorities said.<br>
+      No one else was  in the car and no one else was hurt, according to police.<br>
+      An autopsy is  scheduled for Wednesday.</p>
+    <figure class="centered">
+      <img src="images/suv_hosp.jpg" width="415" height="337" alt="Suv crashes into hospital" />
+      <figcaption>An SUV sits in a Streeterville hospital lobby  after a valet accidentally accelerated instead of braking early </figcaption>
+    </figure>
+      <h2>SUV smashes into front entrance of Streeterville hospital</h2>
+    <p>An SUV smashed through the front entrance of Northwestern Medicine’s Prentice Women’s Hospital in Streeterville early Wednesday.<br>
+        About 2:45 a.m., a valet accidentally accelerated instead of braking the vehicle and crashed into the doorway of the hospital at 250 E. Superior, police News Affairs Officer Hector Alfaro said.<br>
+        The accident caused minor property damage and no one was hurt, Alfaro said.<br>
+        No citations were expected to be issued. </p>
+  </article>
+  <aside id="sidebar">
+    <h2>Three Oak Forest businesses cited for  underage liquor sales</h2>
+    <p>Three businesses  in south suburban Oak Forest were cited last week for selling alcohol to  minors, state authorities said.<br>
+      The Illinois  Liquor Control Commission and the Oak Forest Police Department conducted  compliance checks on 19 businesses in Oak Forest on Thursday, Feb. 19,  according to a statement from the ILCC.<br>
+      Three  businesses were issued citations after they failed the check:<br>
+      – Cindy&rsquo;s Pub,  5230 W. 159th St.;<br>
+      – Circle K, 5600 W. 159th St.;<br>
+      – Oak Forest Bowl, 15240 S. Cicero Ave.<br>
+      The 16 other  businesses passed the compliance check by refusing to sell liquor to the ILCC&rsquo;s  underage participant, according to the statement. None of the businesses  visited had previously failed a compliance check.</p>
+  </aside>
+  <div id="SearchFunction">
+  <form name="jksearch" action="http://www.google.com/search" method="get" onSubmit="jksitesearch(this)">
+
+<p>Search Chicago SunTimes:<br />
+<input id="hiddenquery" type="hidden" name="q" />
+<input name="qfront" type="text" style="width: 200px" value="news item" /> <input type="submit" value="Search" /><br />
+<div style="font: bold 11px Verdana;">Google:<input name="se" type="radio" checked>  Yahoo:<input name="se" type="radio">  MSN:<input name="se" type="radio">
+</div>
+
+<script type="text/javascript">
+
+// All-in-one Internal Site Search script- By JavaScriptKit.com (http://www.javascriptkit.com)
+// For this and over 400+ free scripts, visit JavaScript Kit- http://www.javascriptkit.com/
+// This notice must stay intact for use
+
+//Enter domain of site to search.
+var domainroot="chicago.suntimes.com"
+
+var searchaction=[ //form action for the 3 search engines
+"http://www.google.com/search",
+"http://search.yahoo.com/search",
+"http://search.msn.com/results.aspx"
+]
+
+var queryfieldname=["q","p","q"] //name of hidden query form for the 3 search engines
+
+function switchaction(cur, index){
+cur.form.action=searchaction[index]
+document.getElementById("hiddenquery").name=queryfieldname[index]
+}
+
+function jksitesearch(curobj){
+for (i=0; i< document.jksearch.se.length; i++){ //loop through radio to see which is checked
+if (document.jksearch.se[i].checked==true)
+switchaction(document.jksearch.se[i], i)
+}
+document.getElementById("hiddenquery").value="site:"+domainroot+" "+curobj.qfront.value
+}
+
+
+</script>
+
+</p>
+
+</form>
+
+<p style="font: normal 11px Arial">This free script provided by<br />
+<a href="http://www.javascriptkit.com">JavaScript Kit</a></p>
+
+  </div>
+  <div id="footernav">
+    <ul id="MenuBar1" class="MenuBarHorizontal">
+      <li class="MenuBarHorizontal"><a href="index.html">Local News</a>      </li>
+      <li><a href="NationalNews.html">National News</a></li>
+      <li><a href="#">Sports</a>      </li>
+      <li><a href="#">Entertainment</a></li>
+      <li><a href="#">Health</a></li>
+      <li><a href="#">Business</a></li>
+    </ul>
+  </div>
+  <hr>
+  <footer id="footer">
+    <h4>Chicago SunTimes</h4>
+      <p>350 N. Orleans Street<br>
+      Chicago, IL 60654
+    </p>
+    <p>Copyright 2015 </p>
+  </footer>
+</div>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+</html>

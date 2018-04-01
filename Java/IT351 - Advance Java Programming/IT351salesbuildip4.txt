@@ -1,0 +1,14 @@
+create database IT351Sales;
+create table customer (cID int primary key, cFirstName text, cLastName text, cAddress text, cCity text, cState text, cZipCode int, cPhone text);
+INSERT INTO customer(cID, cFirstName, cLastName, cAddress, cCity, cState, cZipCode, cPhone)
+			VALUES(10, 'Pep E.', 'LaPew', '100 Main Street', 'Los Angeles', 'CA', 90046, '9098887711'),
+			      (11, 'Bugs', 'Bunny', '101 Main Street', 'Los Angeles', 'CA', 90046, '9098887722'),
+				  (12, 'Lola', 'Hopper', '104 Main Street', 'Los Angeles', 'CA', 90046, '9098887733');
+create table product (pID int primary key, pName text, pDescription text, pPrice decimal(5,2));
+Insert into product (pID, pName, pDescription, pPrice)
+			values (10, 'Gobbstoppers', 'Hard suck candy', 0.75),
+					(11, 'Smarties', 'Rolled candy that has fruit flavors', 0.85),
+					(12, 'Coke', 'Refreshing beverage', 1.10);
+create user 'ctuonline'@'localhost' identified by 'student';
+GRANT ALL ON IT351Sales.* TO 'ctuonline'@'localhost' identified by 'student';
+FLUSH PRIVILEGES;

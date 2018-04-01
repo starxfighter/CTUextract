@@ -1,0 +1,26 @@
+5
+TF 10
+Is red a color?
+True
+TF 5
+Is today Monday?
+False
+MC 10
+What is red?
+3
+Apple
+Orange
+Peach
+A
+MC 15
+What is the name of the professor?
+5
+A
+B
+C
+Meadors
+Thorpe
+D
+TF 2
+Are we done?
+True

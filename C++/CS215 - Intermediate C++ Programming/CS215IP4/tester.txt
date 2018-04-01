@@ -1,0 +1,8 @@
+1
+MC 10
+What is red
+3
+Red
+Orange
+Peach
+A
